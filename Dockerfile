@@ -12,4 +12,4 @@ RUN cp -rvf photogenic/*
 RUN rm -rf photogenic photogenic.zip
 
 CMD ["/var/www/html/" , "-D" , "FOREGROUND"]
-EXPOSE 80
+EXPOSE 80 22
